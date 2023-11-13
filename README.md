@@ -1,13 +1,15 @@
 ## Dependencies
 
-You must have node.js and discord.js installed.
-To install discord.js, you can run `npm install discord.js`
+You must have node.js installed.
 
-## Running
+## Setup
 
-1. First, input your bot's token and client ID into config.js.  
-2. Then register the bot's slash commands with `npm run deploy`  
-3. Then run the bot with `node index.js`
+1. First install dependencies with `npm install`
+2. Then input your bot's token and client ID into config.js.  
+3. Then register the bot's slash commands with `npm run deploy`
+4. Then start the bot with `node index.js`
+
+After the first time installing dependencies and registering slash commands, you only need to run `node index.js`   
 
 ## Usage
 
