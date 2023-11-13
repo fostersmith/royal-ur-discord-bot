@@ -1,4 +1,4 @@
 module.exports = {
-    token: "<bot token here>sdfsdfsdf",
+    token: "<bot token here>",
     clientId: "<client id here>",
 };
