@@ -1,12 +1,11 @@
 const { Client, GatewayIntentBits, Partials, ButtonBuilder, ActionRowBuilder, ButtonStyle } = require('discord.js');
 const {RoyalGameOfUr, ROLLING, MOVING} = require("./ur/RoyalGameOfUr");
-const SomeClass = require("./ur/SomeClass");
 const client = new Client({ 
     intents: 
     [GatewayIntentBits.Guilds,], 
 });
 const config = require("./config");
-const makeButtons = require('./ur/makeButtons');
+const makeButtons = require('./ur/MakeButtons');
 const setButtons = require('./ur/SetButtons');
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
